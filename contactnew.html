@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL</title>
+    <link rel="icon" href="mylogo.png">
+    <link rel="stylesheet" href="contactnew.css">
+    <script src="https://kit.fontawesome.com/1f48419703.js" >
+
+    </script>
+</head>
+
+<body>
+    <div class="bgimage"></div>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-200px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+       
+    </script>
+    <section class="contact">
+
+   
+
+        <div class="container">
+           <div class="containerInfo">
+               <div class="box">
+                   <div class="icon1"><i class="fas fa-location-dot"></i></div>
+                   <div class="text">
+                      <span> Address</span>
+                       <p> ITPL Road,<br>
+                      Moratuwa,Colombo <br>
+                       Srilanka ,PIN 80550</p>
+                   </div>
+               </div>
+    
+               <div class="box">
+                   <div class="icon1"><i class="fas fa-phone"></i></div>
+                   <div class="text">
+                       <span> Phone</span>
+                       <p> +94-712211162</p>
+                   </div>
+               </div>
+    
+               <div class="box">
+                   <div class="icon1"><i class="fas fa-envelope"></i></div>
+                   <div class="text">
+                       <span> Email</span>
+                       <p>kanishkazoysa1234@gmal.com</p>
+                   </div>
+               </div>
+           
+             
+        </div>
+       
+         </div>
+    
+         
+    </section>
+        <div class="d1">
+    
+    
+            <h1>SEND MESSEGE</h1>
+            <form action="#">
+    
+                <input type="email" name="email" id="" placeholder="Email"><br><br>
+                <input type="text" name="Fname" placeholder="Full Name"><br><br>
+                <input type="text" name="country" placeholder="Country"><br><br>
+                <input type="text" placeholder=" Phone number"><br><br>
+                 <label for="msg"><span>Type your messege</span></label><br><br>
+                 <textarea name="" id="" cols="46" rows="10"></textarea>
+                <button type="submit">SEND</button>
+    
+            </form>
+        </div>
+
+<nav id="navbar">
+    <div class="logo"><img src="new logo.png" alt="logo" height="100px" width="300px"></div>
+
+    <ul>
+        <li><a href="HOME page-index.html">HOME</a></li>
+        <li><a href="facilities.html">FACILITIES</a></li>
+        <li><a href="offers.html">OFFERS</a></li>
+        <li><a href="contactnew.html">CONTACT</a></li>
+    </ul>
+
+</nav>
+<footer>
+<div class="row">
+    <div class="col">
+        <img src="new logo.png" class="logo1">
+        <p>A hotel is a commercial establishment that provides lodging, meals, and other services <br> to guests, travelers, and tourists. Hotels can <br> range from small family-run businesses to <br> large  international chains. Most hotels list a <br> variety of services, such as room service, laundry, and concierge.</p>
+    </div>
+    <div class="col">
+        <h3>Office</h3>
+        <p>ITPL Road</p>
+        <p>Moratuwa,Colombo</p>
+        <p>Srilanka ,PIN 80550</p>
+        <p class="email-id">kanishkazoysa1234@gmail.com</p>
+        <h4>+94-712211162</h4>
+    </div>
+    <div class="col">
+        <h3>Links</h3>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="">Contacts</a></li>
+        </ul>
+    </div>
+    <div class="col">
+        <h3>Newsletter</h3>
+        <form class="form1">
+            <i class="far fa-envelope"></i>
+            <input type="email" placeholder="Enter your email id" required>
+            <button type="submit"><i class="fas fa-arrow-right"></i></button>
+        </form>
+        <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-whatsapp"></i>
+            <i class="fab fa-pinterest"></i>
+        </div>
+    </div>
+</div>
+</footer>
+
+</body>

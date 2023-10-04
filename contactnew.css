@@ -1,0 +1,319 @@
+nav {
+    list-style-type: none;
+    top: 0;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: rgba(2, 43, 87);
+    padding: 10px 90px;
+    transition: 0.8s;
+    border-bottom: 1px solid #fff;
+    background: linear-gradient(to right, rgba(2, 43, 87),rgba(2, 43, 87) 20%, #2d0b00 );
+    
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin-left: 900px;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  nav ul li a {
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+  
+  }
+  
+  li a:hover {
+    color: black;
+    background-color: rgb(199, 164, 232);
+  
+  }
+  
+  .logo {
+  
+    float: left;
+  
+  }
+
+  .bgimage{
+    background-image: url(gal6.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.d1{
+width: 350px;
+top: 20%;
+left: 50%;
+position: absolute;
+
+}
+
+.d1 input{
+width: 100%;
+padding: 10px 6px;
+font-size: 16px;
+border-radius: 5px;
+opacity: 0.7;
+border: none;
+}
+
+.d1 h1{
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: white;
+
+}
+.bday{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.d1 button{
+    margin-top: 30px;
+margin-left: 100px;
+padding:8px ;
+width: 50%;
+font-size: 16px;
+text-transform: uppercase;
+border-radius: 5px;
+font-weight: bold;
+border: none;
+background-color: rgb(5, 163, 0);
+color: white;
+}
+
+.d1 input:hover{
+    transform: scale(1.1,1.1);
+}
+.d1 button:hover{
+
+    color: black;
+    transform: scale(1.1,1.1)
+}
+
+textarea
+{
+  opacity: 0.7;
+  border-radius: 5px;
+}
+label span{
+
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+  footer
+{
+ 
+  width: 100%;
+  position: absolute;
+  margin-bottom: 0%;
+  background: linear-gradient(to right, rgba(2, 43, 87),rgba(2, 43, 87) 20%, #2d0b00 );
+  color: white;
+  padding: 100px 0 30px;
+  border-top-left-radius: 125px;
+  font-size: 13px;
+  line-height: 20px;
+  font-family: sans-serif;
+  height: 35vh;
+
+}
+.row
+{
+  padding: 10px;
+  width:75% ;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.col
+{
+  flex-basis: 25%;
+  margin-left: -60px;
+  margin-bottom: 10px;
+  padding-left: 30px;
+}
+.logo1
+{
+  width: 180px;
+  margin-bottom: 30px;
+}
+.col h3{
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+}
+.email-id
+{
+  width: fit-content;
+  border-bottom: 1px solid #ccc;
+  margin: 20px 0;
+}
+.col ul li{
+  list-style: none;
+  margin-bottom: 12px;
+  display: block;
+}
+.col ul li a{
+  text-decoration: none;
+  color: white;
+}
+.fa-regular fa-envelope
+{
+  width: 40px;
+}
+.form1{
+ padding-bottom: -4px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ border-bottom: 1px solid #ccc;
+ margin-bottom: 60px;
+
+}
+.form1 .far{
+font-size: 18px;
+margin-right: 10px;
+}
+.form1 input{
+  width: 100%;
+  background:transparent ;
+  color: #ccc;
+  border: 0;
+  outline: none;
+  margin-bottom: 5px;
+}
+.col ::placeholder
+{
+  color: white;
+  opacity: 0.3;
+}
+.form1 button
+{
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.form1 button .fas
+{
+  font-size: 16px;
+  color: #ccc;
+}
+.social-icons .fab
+{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  font-size: 20px;
+  color: #929292;
+  background: #fff;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.contact
+{
+  margin-top: -40%;
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+font-family: sans-serif;
+margin-left: -250px;
+}
+    .contact .content1
+{
+  max-width: 800px;
+  text-align: center;
+}
+.contact .content1 h2{
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+
+}
+.contact .content1 p
+{
+  font-weight: 300;
+  color: #fff;
+}
+.container
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.container .containerInfo
+{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+}
+.container .containerInfo .box
+{
+  position: relative;
+  padding: 25px;
+  display: flex;
+
+}
+ .icon1 .fas
+{
+  min-width: 50px;
+  height: 50px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+.container .containerInfo .box .text
+{
+  display: flex;
+  margin-top: -4px;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 200;
+  
+
+}
+.container .containerInfo .box .text span{
+  font-weight: 700;
+  color: #ffffff;
+
+}
